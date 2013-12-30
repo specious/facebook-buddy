@@ -1,0 +1,25 @@
+//
+// Facebook Buddy - An extension for Google Chrome
+//
+// Learn all about these manifest files here:
+//   http://developer.chrome.com/extensions/manifest.html
+//
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Buddy",
+  "description": "Your best buddy when it comes to Facebook.",
+  "version": "0.1",
+  "author": "Ildar Sagdejev",
+  "icons": {
+    "48": "gfx/icon-48.png",
+    "128": "gfx/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*.facebook.com/*", "https://*.facebook.com/*"],
+      "run_at": "document_idle",
+      "js": ["page-script.js"]
+    }
+  ]
+}
