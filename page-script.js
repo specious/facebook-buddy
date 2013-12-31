@@ -1,3 +1,10 @@
+//
+// This script is designed to run inside a Facebook tab.
+//
+// More information:
+//   http://developer.chrome.com/extensions/content_scripts.html
+//
+
 function simulateClick( element ) {
   var e = document.createEvent( 'MouseEvents' );
   e.initEvent( "click", true, true );
@@ -31,10 +38,31 @@ function expandPreviews() {
   } );
 }
 
-expandComments();
-expandPreviews();
+var options = {};
 
-window.setInterval( function() {
-  expandComments();
-  expandPreviews();
-}, 1800 );
+//
+// Receive option updates from extension
+//
+chrome.runtime.onMessage.addListener(
+  function( request, sender ) {
+    if( request.options )
+      options = request.options;
+  }
+);
+
+//
+// Load option settings from persistent background process
+//
+chrome.runtime.sendMessage( { request: "get-options" },
+  function( response ) {
+    options = response.options;
+
+    window.setInterval( function() {
+      if( options["expand-comments"] )
+        expandComments();
+
+      if( options["expand-previews"] )
+        expandPreviews();
+    }, 2600 );
+  }
+);
