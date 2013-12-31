@@ -1,5 +1,10 @@
 Facebook Buddy - An extension for [Google Chrome](http://www.google.com/chrome/)
 
+Download
+--------
+
+Get the latest release from the Chrome Web Store [here](https://chrome.google.com/webstore/detail/geljpicaffommfbmjigfiahodeliobjg).
+
 Features
 --------
 
@@ -10,14 +15,14 @@ Development
 
 Required tools:
 
-* [http://jade-lang.com/](Jade)
-* [http://learnboost.github.io/stylus/](Stylus)
+* [Jade](http://jade-lang.com/)
+* [Stylus](http://learnboost.github.io/stylus/)
 
 Get started with Chrome extension development here:
 
-* [http://developer.chrome.com/extensions/devguide.html](Developer's Guide)
+* [Developer's Guide](http://developer.chrome.com/extensions/devguide.html)
 
 License
 -------
 
-This extension is released under [http://www.gnu.org/licenses/gpl-3.0.txt](GPL v3).
+This extension is released under [GPL v3](http://www.gnu.org/licenses/gpl-3.0.txt).

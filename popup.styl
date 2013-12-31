@@ -1,14 +1,23 @@
 body
-  min-width 20em
+  min-width 26em
+  font-family 'lucida grande', tahoma, verdana, arial, sans-serif
+  font-size 11px
+  margin 0
   -webkit-user-select none
 .item
   padding 2px 3px
-  border-radius 6px
+  border-bottom 1px solid white
+  border-top 1px solid white
   cursor pointer
-  vertical-align bottom
+  vertical-align middle
   display block
   &:hover
-    background-color lightskyblue
+    color white
+    background #6d84b4
+    border-bottom 1px solid #3b5998
+    border-top 1px solid #3b5998
 input
   cursor pointer
   display inline-block
+  &[type=checkbox]
+    margin-right 6px
