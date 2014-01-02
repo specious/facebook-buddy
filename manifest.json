@@ -4,7 +4,7 @@
   "name": "Facebook Buddy",
   "short_name": "FB Buddy",
   "description": "Your best buddy when it comes to Facebook.",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Ildar Sagdejev",
   "icons": {
     "48": "gfx/icon-48.png",
