@@ -1,8 +1,8 @@
 **Facebook Buddy** - An extension for [Google Chrome](http://www.google.com/chrome/)
 
-![screenshot](https://lh4.googleusercontent.com/1rj_TrLDC2x3dfGZ4hDwMzXazmzdxyi75NLtDbNWkPKWFm5ZeAxZTdzHBSjdTGP3spukI9QNehg=s640-h400-e365-rw)
-
 ## Download
+
+<a href="http://j.mp/fb-buddy"><img src="http://specious.github.io/facebook-buddy/screenshot.png" alt="screenshot"></a>
 
 **Get the [latest release](https://chrome.google.com/webstore/detail/geljpicaffommfbmjigfiahodeliobjg) from the Chrome Web Store.**
 
