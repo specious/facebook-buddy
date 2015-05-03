@@ -23,4 +23,4 @@ Get started with Chrome extension development here:
 
 ## License
 
-This extension is released under [GPL v3](http://www.gnu.org/licenses/gpl-3.0.txt).
+[MIT](http://opensource.org/licenses/MIT)
