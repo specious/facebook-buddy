@@ -2,7 +2,7 @@
 
 ## Download
 
-<a href="http://j.mp/fb-buddy"><img src="http://specious.github.io/facebook-buddy/screenshot.png" alt="screenshot"></a>
+<a href="http://j.mp/fb-buddy"><img src="https://raw.githubusercontent.com/specious/facebook-buddy/gh-pages/screenshot.png" alt="screenshot"></a>
 
 **Get the [latest release](https://chrome.google.com/webstore/detail/geljpicaffommfbmjigfiahodeliobjg) from the Chrome Web Store.**
 
